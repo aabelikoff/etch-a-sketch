@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+    box-sizing: inherit;
+}
+body{
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px;
+    margin: 0px;
+    background-color: rgb(211, 211, 211);
+}
+
+.buttons{
+    margin-left: -250px;
+    margin-right: 80px;
+    box-sizing: border-box;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(200, 200, 200);
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content {
+    box-sizing: border-box; 
+    
+    width: 640px;
+    height: 640px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: row; 
+    margin-left: 250px;
+    align-items:evenly; 
+    justify-content: space-around; 
+    padding:0px; 
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(100,100,100);
+}
+
+button {
+    padding: 0;
+    width:150px;
+    height:40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(180,180,180) 5px 5px 2px;
+    background-color: rgb(211, 202, 192);
+    transition: all 0.12s ease ;
+}
+
+.clickedButton {
+    background-color: rgb(230, 222, 215);;
+    /*border: 3px solid green;*/
+    transform: scale(1.1);
+}
+
+.slideContainer {
+    width:100%;
+    
+    text-align: center;
+    color: rgb(15, 100, 200);
+}
+
+#slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+   /* width: 100%; /* Full-width */
+    height: 15px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    margin: 20px;
+}
