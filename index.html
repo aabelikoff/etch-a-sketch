@@ -10,6 +10,9 @@
 </head>
 <body>
     <div class='buttons'>
+        <label for="color">Choose colour:</label>
+        <input type="color" name="color" id='chooseColor' value="#000000">
+        
         <button name='clearBtn'>Clear</button>
         <button name='rainbowBtn'>Rainbow</button>
         <button name='erazeBtn'>Eraze</button>
@@ -17,8 +20,6 @@
         <div class="slideContainer"> Or resize grid: <span id="size"></span>
             <input type='range' value='16' min='4' max='100' step='4' id="slider" name="slider"/>
         </div>
-        
-        
     </div>
     <div class="content"></div>
     
